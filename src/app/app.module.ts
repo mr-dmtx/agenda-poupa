@@ -3,10 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './pages/home/home.component';
+import { NavbarComponent } from './pages/_components/navbar/navbar.component';
+import { FooterComponent } from './pages/_components/footer/footer.component';
+import { AgendarIdentidadeComponent } from './pages/agendar-identidade/agendar-identidade.component';
+import { AgendarCnhComponent } from './pages/agendar-cnh/agendar-cnh.component';
+import { AgendarVeiculoComponent } from './pages/agendar-veiculo/agendar-veiculo.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    NavbarComponent,
+    FooterComponent,
+    AgendarIdentidadeComponent,
+    AgendarCnhComponent,
+    AgendarVeiculoComponent
   ],
   imports: [
     BrowserModule,
