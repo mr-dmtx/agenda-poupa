@@ -9,6 +9,8 @@ import { FooterComponent } from './pages/_components/footer/footer.component';
 import { AgendarIdentidadeComponent } from './pages/agendar-identidade/agendar-identidade.component';
 import { AgendarCnhComponent } from './pages/agendar-cnh/agendar-cnh.component';
 import { AgendarVeiculoComponent } from './pages/agendar-veiculo/agendar-veiculo.component';
+import { ConfirmarAgendamentoComponent } from './pages/confirmar-agendamento/confirmar-agendamento.component';
+import { BaseUiComponent } from './pages/_components/base-ui/base-ui.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { AgendarVeiculoComponent } from './pages/agendar-veiculo/agendar-veiculo
     FooterComponent,
     AgendarIdentidadeComponent,
     AgendarCnhComponent,
-    AgendarVeiculoComponent
+    AgendarVeiculoComponent,
+    ConfirmarAgendamentoComponent,
+    BaseUiComponent
   ],
   imports: [
     BrowserModule,

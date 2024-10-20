@@ -1,4 +1,10 @@
+#servicos>.card{
+  transition: 0.3s;
+}
+
+
 #servicos>.card:hover {
   background-color: rgb(73, 73, 73);
   color: white;
+
 }
